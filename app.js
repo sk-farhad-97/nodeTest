@@ -14,7 +14,7 @@ mongoose.connect('mongodb://sk_farhad:skfarhadmay12@ds061076.mlab.com:61076/book
 
 var db = mongoose.connection;
 
-app.use(express.static(__dirname + '/client')); // put double underscore before dirname
+//app.use(express.static(__dirname + '/client')); // put double underscore before dirname
 //otherwise won't work!!!!!
 
 //routes
